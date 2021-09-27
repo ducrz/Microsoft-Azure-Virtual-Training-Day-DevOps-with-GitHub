@@ -1,0 +1,372 @@
+Microsoft Azure Virtual Training Day - DevOps with GitHub - 27/09/2021
+
+Instrutor: Abel Wang - 1972-2021 "Dont't accept the defaults"
+
+https://github.com/abelsquidhead
+
+
+
+Recursos
+---------
+
+
+Microsoft Learn para Azure
+https://docs.microsoft.com/pt-br/learn/azure/
+
+Inscreva-se no exame de certificação DevOps Enginner Expert.
+
+https://docs.microsoft.com/pt-br/learn/certifications/devops-engineer/
+
+Visual Studio Code
+https://code.visualstudio.com
+
+Visual Studio Marketplace
+https://marketplace.visualstudio.com/vscode/
+
+
+DevOps Resource Center
+
+https://docs.microsoft.com/pt-br/devops/
+
+
+-----------------------------------------
+PRIMEIRA SEÇÃO DO DIA
+
+SEÇÃO 01: INTRODUÇÃO A DEVOPS
+
+
+O que é DevOps?
+
+DevOps é a união das pessoas, processos e produtos, para possibilitar a entrega continua de valor para os clientes finais.
+
+PESSOAS
+Mudança cultura precisa ocorrer em todos, hiperfocados em gerar valor continuamente.
+
+
+
+PROCESSOS
+
+Planejamento
+Desenvolvimento
+Operação
+Entrega
+Monitoramente
+
+
+PRODUTOS
+
+Source Control.
+
+Formas de versionamento, usam conceitos de repositórios de código.
+
+Git
+
+
+.gitignore - ignorar determinados arquivos
+
+Branches- ramificações
+
+Commits- Acompanhar as mudanças feitas.
+
+Tags- Pontos para releases específicas.
+
+
+
+Apresentação das funcionalidade sdo GitHub.
+
+
+Criação de branches.
+
+git chekout ramificacao.
+
+git add .
+
+git commit -m "Edição da ramificação"
+
+
+
+
+Pull Request
+
+Merge
+
+
+
+
+MICROSOFT TEAMS
+
+Hub de trabalho em equipe.
+
+
+GitHub for teams-
+
+App GitHub Enterprise.
+
+
+
+DEMO MICROSOFT TEAMS
+
+
+vISUAL STUDIO CODE
+
+
+Visual Studio Marketplace
+https://marketplace.visualstudio.com/vscode/
+
+
+
+DEMO VISUAL STUDIO CODE
+
+Extensão: LiveShare
+
+
+GITHUB CODESPACES
+
+CodeSpaces permite criar um ambiente personalizado.
+
+Cria o contêiner, executa o conteiner e configura o codespace.
+
+Mais informações:
+
+aka.ms/all-thinks-devops
+
+aka.ms/getting-started-devops
+
+
+FIM PRIMEIRA SEÇÃO
+
+---------------------------------------------
+
+
+SEGUNDA SEÇÃO DO DIA
+
+SEÇÃO 02: SCRUM
+
+Backlog > Spring planning meeting > sprint backlog.
+
+
+PRINCÍPIOS GERAIS
+
+
+Criação de forma incremental, sprint por sprint.
+
+Correções durante o processo
+
+Transparência (produtos e sprints backlogs são publicos.
+
+Product Owner(como o produto funcionará e como será parecido com)
+
+Development Team - Equipe de desenvolvimento, mais multifuncional possível.
+
+Scrum Master(Garantir que SCRUM está sendo seguido e proteger o time de equipes executivas.
+
+Scrum teams são auto-organizavéis(como fazer o trabalho e como deve ser feito) e cross-functional.
+
+
+
+Qualidade é inegociável! Você não pode negociar em qualidade!
+
+
+Estimativas
+
+Nunca acima de 4 horas.
+Desenvolvimento em paralelo.
+Tarefas mais alinhadas.
+
+Nunca comece a partir de uma data.
+
+
+As Regras aplicam-se a todos, desde o topo até o menor, não importa o cargo.
+
+
+Tracking Work - Azure Boards
+
+
+DEMO DE FUNCIONAMENTO AZURE BOARDS
+
+
+Vinculado ao GitHub.
+
+
+Ramificações longas causam muitoas conflitos de códigos.
+
+FEATURE FLAGS
+
+if(flag == true{
+	//Novo código
+
+}
+else{
+	//Código antigo
+}
+
+
+
+Possível fazer testes de A/B.
+
+
+
+Soft Launch.
+
+Reversões simples - Desativando "interruptor" e pronto.
+
+
+<feature name="">
+
+
+GitHub Actions -
+
+Automatização dentro do GitHub.
+
+
+FIM SEÇÃO
+
+aka.ms/az-400-cert
+
+
+-------
+
+TERCEIRA SEÇÃO DO DIA:
+
+
+É melhor falhar rápido e corrigir.
+
+
+DevOps Accelerates Delivery
+
+Quanto mais cedo você colocar algo nas mãos dos usuário,mais cedo você saberá se os objetivos foram atingidos.
+
+
+
+
+
+CI e CD
+
+CI = INTEGRAÇÃO CONTÍNUA
+CD- ENTREGA CONTÍNUA
+
+CONTINIOUS INTEGRATION
+
+Suas mudanças funcionam com as mudanças dos outros.
+Seu código continuar compilador.
+Seus testes continuam passando.
+
+
+ENTREGA CONTINUA
+
+Você tem uma aplicação "pronta"
+
+Inclui infraestrutura e dependências, não precisa ser produção de fato.
+
+Tudo que você precisa para deploy.
+
+Confiável e reproduzível.
+
+
+
+GitHub Actions para CI/CD
+
+CI WORK FLOW
+
+
+Criação de containers usando Docker.
+
+
+Protegendo "Produção"
+
+Nem toda alteração vai para produção.
+
+
+
+Trunk-base development
+
+
+trunk/main
+
+Short-lived feature branches (dois dias máximo)
+
+
+
+Testar as alterações antes de entrar em produção.
+
+
+
+ChatOps
+
+Usando Microsoft Teams.
+
+Deployment Slots
+
+Staging Slot.
+
+Slots de Implantação
+
+Ótima forma de implementar um aplicativo e testar com uma parte dos usuários.
+
+
+
+MICROSOFT TEAMS
+
+
+Hub para colaboração
+
+Webhooks e conectores- Integrações
+
+Cards Adaptativos.
+
+
+
+
+GitHub > Teams > App Service
+[merge]          Deploy to Staging
+
+
+
+Ativando Slots via Teams e promovendo para produção.
+
+
+
+Handling Keys and Credentials
+
+
+Mantenha os segredos secretos, senhas por exemplo não devem estar nos repositórios.
+
+GitHub Secrets
+
+
+
+Azure Key Vault
+
+Único ponto de controle, informações centralizadas, facilita quando existe mudança.
+
+
+
+Recapitulando
+
+
+Adicione CD ao seu pipeline.
+
+Implante deploy em algum lugar.
+
+Projeta a produção com ChatOps.
+
+Centralize o armazenamento de segredos.
+
+
+aka.ms/learn/actions
+
+aka.ms/learn/teams
+
+aka.ms/docs/teamsdev
+
+aka.ms/docs/keyvault
+
+
+FIM SEÇÃO 03
+
+Fim DIA 01
+
+----
+
+
+
