@@ -1,0 +1,260 @@
+Microsoft Azure Virtual Training Day - DevOps with GitHub
+
+Dia 02. 28/09/2021.
+
+Instrutora: Jessica Deen https://github.com/jldeen
+
+
+
+RECURSOS
+---------
+    MICROSOFT LEARN PARA AZURE
+	https://docs.microsoft.com/pt-br/learn/azure/
+
+    Inscreva-se no exame de certificação DevOps Engineer Expert.
+	https://docs.microsoft.com/pt-br/learn/certifications/devops-engineer/
+
+    Visual Studio Code
+	https://code.visualstudio.com/
+ 
+    Visual Studio Marketplace
+	https://marketplace.visualstudio.com/vscode/
+ 
+    DevOps Resource Center
+	https://docs.microsoft.com/pt-br/devops/
+
+---------
+
+SEÇÃO 01:
+
+Desenvolvendo com qualidade
+
+
+Aumentar o nível de qualidade.
+
+Confiabilidade.
+
+Segurança.
+
+
+GESTÃO DE SEGURANÇA E VULNERABILIDADE
+
+
+
+DEPENDENCY INSIGHTS
+
+VULNERABILITY MANAGEMENT
+
+Code Scanning
+
+
+
+CODEQL
+
+
+DEMO - AZURE SECURITY AND GITHUB SECRET SCANNING
+
+
+Recursos de segurança do GitHub.
+
+
+
+Menu Security > Secutiry Policy.
+
+Security Advisories.
+
+Dependabot.
+
+
+Code Scanning alerts.
+
+
+Microsoft Azure Security.
+
+
+Azure Key Vault > Secrets
+
+
+
+
+CONTAINER SECURITY
+
+
+KUBERNETES Architecture
+User > App / workload definition > Kubernetes API Endpoint>
+
+Self-managed main node(s)
+
+API Server
+etc
+Scheduler
+Controller Manager
+Cloud Controller
+
+
+Docker e Pods
+
+
+
+Camadas de Containers
+
+
+Imagem base e todas as camadas acima.
+
+
+
+
+DEMO - BUILDING SECURE CONTAINERS
+
+Dockerfile > Usuário sem permissão de root.
+
+USER 1000
+
+
+GITHUB ACTIONS
+
+Automate
+
+Build, test and deploy with confidence
+
+Customizable
+
+
+
+End-to-end, code-to-cloud DevOps
+
+DEMO- GAINING DEVOPS CONFIDENCE WITH cONTAINERS
+
+
+EXTENSÃO > LOCAL PROCESS WITH KUBERNETS
+
+
+RECAPITULANDO
+
+
+CODE SCANNING AND DEPENDENCY ALERTS
+
+BUILD MORE SECURE CONTAINERS
+
+GAIN DEVOPS CONFIDENCE
+
+
+FIM SEÇÃO 01.
+
+------
+
+
+INÍCIO SEÇÃO 02
+
+
+Welcome to the Tailwind Team
+
+
+
+Resposta a incidentes
+
+
+
+AUTOMATIZE O QUE PUDER.
+
+
+
+DEVOPS
+
+UNIÃO DE PESSOAS, PROCESSOS E PRODUTOS PARA ENTREGAR VALOR AOS USUÁRIOS FINAIS.
+
+
+O grande objetivo é entregar valor!
+
+
+
+RESPOSTA RESPONSÁVEL A INCIDENTES
+
+Notificação de incidente deve ser feita pra quem é o responsável pelo resolução.
+
+
+
+DEMO BASIC DRI NOTIFICATION - MICROSOFT TEAMS - SHIFT
+
+Azure > Logic App > Alerter
+
+
+aka.ms/docs/alertschema
+
+
+
+Não existem pessoas mágicas ou máquinas
+
+
+Identificando o problema
+
+Identidade no Azure
+
+Gestão de identidade 
+
+
+
+Configurar uma identidade gerenciada no Azure.
+
+
+Settings > identities
+
+
+
+aka.ms/docs/identities
+
+
+
+TOOLING OVER TASKS
+
+
+REDUZINDO INTERVENÇÃO MANUAL EM PRODUÇÃO
+
+
+
+Mover tarefas repetitivas para automação.
+
+
+DEMO USING LOGIC APPS AND MICROSOFT TEAMS TO CREATE FLEXIBLE AUTOMATION
+
+
+AppServiceConsoleLogs
+
+
+
+Azure > New Logic App > restarter.
+
+
+Blank logic app > Microsoft Teams
+
+
+Tailbot dentro do Microsoft Teams.
+
+
+
+RECAPITULANDO
+
+
+RESPONSIBLE INCIDENT RESPONSE
+
+NO MAGIC PEOPLE OR MACHINES
+
+TOOLING OVER TASKS
+
+
+aka.ms/getting-started-devops
+
+
+aka.ms/az400-cert
+
+
+learn.microsoft.com
+
+
+
+FIM SEÇÃO 02.
+
+FIM SEGUNDO DIA DE TREINAMENTO.
+
+
+
